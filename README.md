@@ -1,2 +1,2 @@
-# Shopping-app-java-
+# Shopping-app-project-
 Shopping app (java)
