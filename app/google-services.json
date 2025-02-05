@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "9679984888",
+    "project_id": "hitprojectclass3-f3e37",
+    "storage_bucket": "hitprojectclass3-f3e37.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9679984888:android:c10e7a9f738220010c030d",
+        "android_client_info": {
+          "package_name": "com.example.secondandroidhita"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDly9m-QDcnJ2N9-7BW8KZ0ey2TJ1Rhr_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

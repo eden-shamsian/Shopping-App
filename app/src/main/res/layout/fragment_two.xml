@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@android:drawable/alert_light_frame"
+    android:orientation="vertical"
+    tools:context=".fragements.FragmentTwo">
+
+    <EditText
+        android:id="@+id/emailTextReg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="email text" />
+
+    <EditText
+        android:id="@+id/passwordTextReg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="password text" />
+
+    <EditText
+        android:id="@+id/repasTextReg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="repass text" />
+
+    <EditText
+        android:id="@+id/phoneTextReg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="phone" />
+
+    <Button
+        android:id="@+id/setRegister"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="reg button"
+        android:textSize="34sp" />
+</LinearLayout>

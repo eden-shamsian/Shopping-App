@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph1"
+    app:startDestination="@id/fragmentOne">
+
+    <fragment
+        android:id="@+id/fragmentOne"
+        android:name="com.example.secondandroidhita.fragements.FragmentOne"
+        android:label="fragment_one"
+        tools:layout="@layout/fragment_one" >
+        <action
+            android:id="@+id/action_fragmentOne_to_fragmentThree"
+            app:destination="@id/fragmentThree" />
+        <action
+            android:id="@+id/action_fragmentOne_to_fragmentTwo2"
+            app:destination="@id/fragmentTwo2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentThree"
+        android:name="com.example.secondandroidhita.fragements.FragmentThree"
+        android:label="shop"
+        tools:layout="@layout/fragment_three" />
+    <fragment
+        android:id="@+id/fragmentTwo2"
+        android:name="com.example.secondandroidhita.fragements.FragmentTwo"
+        android:label="fragment_two"
+        tools:layout="@layout/fragment_two" />
+
+
+</navigation>
