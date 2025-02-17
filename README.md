@@ -8,6 +8,8 @@ This project simulates a shopping management application where users can log in,
 - **User Login**: Existing users can log in using their username and password, with validation to ensure the credentials are correct.
 - **Shopping List Management**: Users can add products and quantities to their shopping list or remove them.
 - **User Interface**: The app has a simple and user-friendly interface.
+- **Firebase Integration**: User data and shopping list items are stored in Firebase for real-time syncing across devices.
+- **API Usage**: The app fetches product data and other necessary information through a RESTful API.
 
 ## Requirements
 
