@@ -1,5 +1,4 @@
 # Shopping-app-project-
-# Shopping Management Application
 
 This project simulates a shopping management application where users can log in, register, and manage their shopping list by adding or removing products.
 
